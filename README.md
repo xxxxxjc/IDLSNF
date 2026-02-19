@@ -14,7 +14,6 @@ HM 16.15 integrates IDLSNF by invoking cnndemo to replace the HEVC in-loop filte
 | DIV2K  | Global Learnable Attention for SingleImage Super-Resolution (TPAMI 2023)                                                          |  [[Google Drive](https://data.vision.ee.ethz.ch/cvl/DIV2K/)]|
 
 ## ⏳ IDLSNF Training
-The training set uses four classes from CNN-Spot(CNN-generated images are surprisingly easy to spot...for now, CVPR 2020): car, cat, chair, and horse. [Baidu Netdisk](https://pan.baidu.com/s/1l-rXoVhoc8xJDl20Cdwy4Q?pwd=ft8b)
 ```
  python main.py --dir_data [training datasets path] --data_range [datasets] --n_GPUs 1 --rgb_range 1 --chunk_size 128 --n_hashes 3 --save_models --lr 1e-5 --decay 200-400-600-800 --epochs 1000 --chop --save_results --data_test Set5 --n_resgroups 10 --n_resblocks 4 --n_feats 64 --reduction 4 --res_scale 1 --batch_size 4 --model DLSN --scale 1 --patch_size 128 --save DLSN_x1 --data_train DIV2K
 ```
