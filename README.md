@@ -11,8 +11,7 @@ HM 16.15 integrates IDLSNF by invoking cnndemo to replace the HEVC in-loop filte
 ### 2.Getting datasets
 | Datasets          |    Paper                                                                                                               |    Url    |
 |:------:           |:---------:                                                                                                             |:---------:|
-| DIV2K  | Global Learnable Attention for SingleImage Super-Resolution (TPAMI 2023)   | [Google Drive]
-((https://data.vision.ee.ethz.ch/cvl/DIV2K/)) |
+| DIV2K  | Global Learnable Attention for SingleImage Super-Resolution (TPAMI 2023)                                                          |  [[Google Drive](https://data.vision.ee.ethz.ch/cvl/DIV2K/)]|
 
 ### 3.Inference
 Of course, you need to change [DetectionTests] in test.py when testing.
