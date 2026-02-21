@@ -7,6 +7,7 @@
 ### 1. Description
 ```
 HM 16.15 integrates IDLSNF by invoking cnndemo to replace the HEVC in-loop filter.
+The steganalysis tools used in this work were developed by other researchers and are not our original contributions. Therefore, these components have been encrypted in the released code. Researchers who wish to use them must obtain permission from the respective authors.
 ```
 ### 2.Getting datasets
 | Datasets          |    Paper                                                                                                               |    Url    |
